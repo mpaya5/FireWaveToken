@@ -5,4 +5,4 @@ app = Flask(__name__)
 # Vistas del index
 @app.route('/')
 def index():
-    print("Hey what's up?")
+    return render_template('index.html')
